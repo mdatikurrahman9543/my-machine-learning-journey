@@ -4,7 +4,7 @@ my-machine-learning-journey
 A centralized collection of my machine learning journey, daily practice code, algorithms, and hands-on experiments.
 # content
 * [simple linear regression](https://github.com/mdatikurrahman9543/my-machine-learning-journey/blob/main/simple%20linear%20regression)
-* [muliple linear regression](https://github.com/mdatikurrahman9543/my-machine-learning-journey/new/main)
+* [muliple linear regression](https://github.com/mdatikurrahman9543/my-machine-learning-journey/blob/main/multiple%20linear%20regression)
 * 
 
 
