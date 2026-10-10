@@ -3,6 +3,6 @@ my-machine-learning-journey
 ## description
 A centralized collection of my machine learning journey, daily practice code, algorithms, and hands-on experiments.
 # content
-* ## simple linear regression ##
+* [simple linear regression](https://github.com/mdatikurrahman9543/my-machine-learning-journey/blob/main/simple%20linear%20regression)
 
 
