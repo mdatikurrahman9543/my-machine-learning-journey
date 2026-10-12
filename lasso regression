@@ -1,0 +1,9 @@
+from sklearn.datasets import fetch_california_housing
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import Lasso
+from sklearn.pipeline import Pipeline
+housing=fetch_california_housing()
+x=housing.data
+y=housing.target
+make_pipeline=Pipeline([("type",StandardScaler()),("vul",Lasso(1.5))])
+make_pipeline.fit(x,y)
