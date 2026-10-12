@@ -1,0 +1,9 @@
+from sklearn.linear_model import Ridge
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import Pipeline
+from sklearn.datasets import fetch_california_housing
+housing=fetch_california_housing()
+x=housing.data
+y=housing.target
+mak_pipeline=Pipeline([("type",StandardScaler()),("regress",Ridge(alpha=3))])
+mak_pipeline.fit(x,y)
