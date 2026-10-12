@@ -1,0 +1,9 @@
+from sklearn.datasets import fetch_california_housing
+from sklearn.pipeline import Pipeline
+from sklearn.linear_model import ElasticNet
+from sklearn.preprocessing import StandardScaler
+housing=fetch_california_housing()
+x=housing.data
+y=housing.target
+make_pipeline=Pipeline([("scaler",StandardScaler()),("elastic",ElasticNet(alpha=0.5,l1_ratio=0.5))])
+make_pipeline.fit(x,y)
